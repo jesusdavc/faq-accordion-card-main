@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 62.5%;
+    /* --var(--color-violet): hsl(273, 75%, 66%); */
+}
+body{
+    width: 100vw;
+    background-color: hsl(273, 75%, 66%);
+}
+@media screen and (min-width: 320px){
+    .header{
+        width: 100%;
+        height: auto;
+        background-color: hsl(273, 75%, 66%);
+    }
+    .header-image-container{
+        width: 65%;
+        height: auto;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    .header-image{
+        width: 100%;
+        padding-right: 30px;
+    }
+}
