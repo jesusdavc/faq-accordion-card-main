@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="./css/mobile.css" media="(min-width : 320px)">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -20,35 +19,35 @@
 <body>
     <header class="header">
       <div class="header-image-container">
-        <img src="./images/illustration-woman-online-mobile.svg" alt="header-image" class="header-image">
-        <img src="" alt="image-shadow">
+        <img class="header-image" src="./images/illustration-woman-online-mobile.svg" alt="header-image">
+        <img class="header-image-shadow" src="./images/bg-pattern-mobile.svg" alt="image-shadow">
       </div>
     </header>
-    <main>
-      <section class="header-tittle">
-        <h2>FAQ</h2>
+    <main class="main">
+      <section class="faq-title">
+        <h1>FAQ</h1>
       </section>
-      <section>
-        <ul>
-          <li>
-            <p>How many team members Can I invite?</p>
-            <p></p>
+      <section class="faq-container">
+        <ul class="faq-container_answers">
+          <li class="faq-answers_element">
+            <p class="element-question">How many team members Can I invite?</p>
+            <p class="element-question"></p>
           </li>
           <li>
-            <p>What is the maximum file upload size?<span></span></p>
-            <p>No more 2GB. All files in your in your account must fit your allotted storege space</p>
+            <p class="element-question">What is the maximum file upload size?<span></span></p>
+            <p class="element-answer">No more 2GB. All files in your in your account must fit your allotted storege space</p>
           </li>
           <li>
-            <p>How Do I reset my password?<span></span></p>
-            <p></p>
+            <p class="element-question">How Do I reset my password?<span></span></p>
+            <p class="element-answer"></p>
           </li>
           <li>
-            <p>Can I cancel my subscription?<span></span></p>
-            <p></p>
+            <p class="element-question">Can I cancel my subscription?<span></span></p>
+            <p class="element-answer"></p>
           </li>
           <li>
-            <p>Do you provide additionls support?<span></span></p>
-            <p></p>
+            <p class="element-question">Do you provide additionls support?<span></span></p>
+            <p class="element-answer"></p>
           </li>
         </ul>
       </section>
@@ -56,7 +55,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Jesús David Cuéllar</a>.
+    Coded by <a href="www.github.com/jesusdavc">Jesús David Cuéllar</a>.
   </div>
 </body>
 </html>
