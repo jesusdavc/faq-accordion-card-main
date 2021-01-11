@@ -30,7 +30,8 @@ body{
 }
 .header-image-container{
     position:relative;
-    width: 76%;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     padding-top: 30px;
     margin: 0 auto;
@@ -40,14 +41,14 @@ body{
     padding-right: 30px;
 }
 .header-image{
-    top: 20px;
+    top: -1px;
     width: 100%;
-    left: calc(50% - 115px)
+    left: calc(50% - 150px)
 }
 .header-image-shadow{
     top: 110px;
     width: 90%;
-    left: calc(50% - 100px)
+    left: calc(50% - 117px)
 }
 .main{
     margin: 13px auto;
@@ -59,7 +60,7 @@ body{
     background-color: white;
     border-radius: 15px;
     color: var(--dark-blue);
-    box-shadow: 0 13px 20px -9px var(--dark-blue)
+    box-shadow: 0 13px 20px -9px var(--dark-blue);
 }
 .faq-container{
     height: auto;
@@ -72,10 +73,11 @@ body{
     color: var(--dark-blue);
     justify-content: center;
     margin-bottom: 25px;
+    margin-top: 30px;
 }
 .faq-title > h1{
     font-size: 2.4rem;
-    letter-spacing: 0.15rem
+    letter-spacing: 0.15rem;
 }
 .faq-answers_element{
     margin: 10px 10px 0 10px;
