@@ -97,11 +97,11 @@ body{
 
 .element-question > span{
     margin-left: 5px;
-    min-width: 8px;
-    min-height: 10px;
+    min-width: 10px;
+    min-height: 7px;
     display: inline-block;
     background-image: url('../images/icon-arrow-down.svg');
     background-size: contain;
     background-repeat:no-repeat;
-    vertical-align: bottom;
+    vertical-align: baseline;
 }
